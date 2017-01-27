@@ -1,7 +1,7 @@
 yii2-theme-devoops / Yii2 extension
 =
 
-Yii2 Admin theme modify from DevOOPS bootstrap 3 source `https://github.com/nnmware/devoops`
+Yii2 Admin theme modify from **[DevOOPS](https://github.com/nnmware/devoops)** bootstrap 3 template
 
 # Installation
 
