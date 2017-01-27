@@ -52,11 +52,11 @@ Example code here:
 ]); ?>
 
 ```
-# Example
 
-You can copy example code in [example.php](example.php) to your view render in some controller.
+## [Components](Components.md)
 
+Detailed description of all widgets.
 
-## [Option](Option.md)
+## [Widgets](Widgets.md)
 
-Detailed description of all available yii2sly widget options.
+Detailed description of all widgets.
