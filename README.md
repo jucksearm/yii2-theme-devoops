@@ -28,34 +28,25 @@ extract file to `vendor` folder as:
 
 # How to use
 
-This extensions is design for widgets, You can call it every where.
-Example code here:
+Once the extension is installed, you can have a **preview** by reconfiguring the path mappings of the view component:
+
+For Yii 2 [Advanced Application Template](https://github.com/yiisoft/yii2-app-advanced) or [Basic Application Template](https://github.com/yiisoft/yii2-app-basic)
 
 ```php
-
-<?php echo jucksearm\sly\Sly::widget([
-    'id' => 'slider',                           ** unique id
-    'items'=> [
-        ['content' => '<img src=""></img>'],    ** insert images
-        ['content' => '<div>test</div>'],       ** insert html DOM
-        ...
+'components' => [
+    'view' => [
+         'theme' => [
+             'pathMap' => [
+                '@app/views' => '@vendor/jucksearm/yii2-theme-devoops/views'
+             ],
+         ],
     ],
-    'htmlOptions' => [
-        'style' => 'height:200px;',             ** custom options
-        'class' => 'slider-h',
-        ...
-    ],
-    'widgetOptions' => [
-        'itemNav' => 'basic',                   ** setting widgets
-        ...
-    ]
-]); ?>
-
+],
 ```
 
 ## [Components](Components.md)
 
-Detailed description of all widgets.
+Detailed description of all Components.
 
 ## [Widgets](Widgets.md)
 
